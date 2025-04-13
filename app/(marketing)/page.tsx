@@ -114,15 +114,34 @@ const HeroSection: React.FC = () => {
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
                 Home of <Em>Exotic & Rare Vehicles</Em>
-                <Br /> and some other daardie things you may get to see <Br />{' '}
-                Want private access?
+                <Br /> and some other daardie things you may get to see <Br /> Want private access?
               </FallInPlace>
             }
           >
+            {/* 🚀 Mobile Image (shows only on base screen sizes) */}
+            <Box
+              display={{ base: 'block', lg: 'none' }}
+              w="100%"
+              mb={8}
+            >
+              <Box overflow="hidden" borderRadius="xl">
+                <Image
+                  src="/static/screenshots/bugatti_tourbillon.avif"
+                  alt="Screenshot of a ListPage in Saas UI Pro"
+                  width={1200}
+                  height={762}
+                  style={{ width: '100%', height: 'auto' }}
+                  quality="75"
+                  priority
+                />
+              </Box>
+            </Box>
+
+            {/* 🎯 Socials + CTA */}
             <FallInPlace delay={0.8}>
               <HStack pt="4" pb="12" spacing="8">
                 <FaInstagram size="20" />
-                <FaFacebook  size="20" />
+                <FaFacebook size="20" />
                 <FaTwitter size="20" />
               </HStack>
 
@@ -152,6 +171,8 @@ const HeroSection: React.FC = () => {
               </ButtonGroup>
             </FallInPlace>
           </Hero>
+
+          {/* 💻 Desktop Image (absolute + floats right) */}
           <Box
             height="600px"
             position="absolute"
@@ -174,6 +195,7 @@ const HeroSection: React.FC = () => {
               </Box>
             </FallInPlace>
           </Box>
+
         </Stack>
       </Container>
 
