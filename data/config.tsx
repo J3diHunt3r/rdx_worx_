@@ -1,11 +1,9 @@
-import { Button } from '@chakra-ui/react'
-import { Link } from '@saas-ui/react'
-import { NextSeoProps } from 'next-seo'
 import { FaInstagram, FaTwitter } from 'react-icons/fa'
 import { FiCheck } from 'react-icons/fi'
-import { Logo } from './logo'
+import { Link } from '@saas-ui/react'
 import { Text } from '@chakra-ui/react'
 
+// Logo component
 const RDXLogo = () => (
   <Text fontWeight="bold" fontSize="xxxlg">
     RDX.
@@ -17,7 +15,8 @@ const siteConfig = {
   seo: {
     title: 'RDX',
     description: 'Let us look after you.',
-  } as NextSeoProps,
+    titleTemplate: 'RDX | Your Trusted Partner'
+  },
   termsUrl: '#',
   privacyUrl: '#',
   header: {
