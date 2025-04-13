@@ -132,7 +132,9 @@ const HeroSection: React.FC = () => {
             {/* 🎯 Socials + CTA */}
             <FallInPlace delay={0.8}>
               <HStack pt="4" pb="12" spacing="8">
-                <FaInstagram size="20" />
+                <Link href="https://instagram.com/rdx_worx" isExternal>
+                    <FaInstagram size="20" />
+                  </Link>
                 <FaFacebook size="20" />
                 <FaTwitter size="20" />
               </HStack>

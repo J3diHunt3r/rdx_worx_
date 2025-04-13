@@ -6,6 +6,4 @@ export interface MotionBoxProps
     Omit<ChakraProps, 'transition' | 'color'> {
   children?: React.ReactNode
 }
-
-/* @ts-expect-error */
 export const MotionBox = motion.create(chakra.div)
