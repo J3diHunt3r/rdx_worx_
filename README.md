@@ -1,64 +1,100 @@
-# Saas UI - Next.js - landing page.
+"""
+# "RDX_WORX – Vaulted. Wrapped. Untouchable."
 
-This is a free Next.js landing page template based on https://saas-ui.dev.
-Feel free to submit any feature requests. If you use this template please share what you've built [on Twitter](https://twitter.com/saas_js) 🚀.
+![RDX_WORX Hero](./public/static/images/homepage.png)
 
-**[View demo](https://saas-ui-nextjs-landing-page.netlify.app/)**
+**"RDX_WORX"** is a premium Next.js-powered PWA and landing experience tailored for the rare and exotic vehicle space. Built with Saas UI and Chakra UI, it's more than just a site — it’s your digital gateway to private vehicle vaulting, precision detailing, PPF, custom wraps, and more.
 
-## Tech
+[🔗 **"View Live Demo"**](https://rdx-worx.vercel.app/)
 
-- Next.js (App router)
-- Chakra UI
-- Saas UI
-- Typescript
+---
 
-## Features
+## "🧰 Tech Stack"
 
-- Feature blocks
-- Testimonials
-- Pricing tables
-- Log in and Sign up pages
-- FAQ
+- "Next.js (App Router)"
+- "Chakra UI"
+- "Saas UI"
+- "TypeScript"
+- "React Icons"
+- "Fully responsive & mobile-friendly"
 
-## Getting Started
+---
 
-First, clone this repo and run `pnpm i`
+## "🚘 Features"
 
-To start the app run:
+- "**Hero Section** – Bold intro with CTA and social integration"
+- "**Highlights & Feature Blocks** – Showcasing services and standout offerings"
+- "**Testimonials** – Client stories from collectors & enthusiasts"
+- "**Pricing Tables** – Flexible service packages"
+- "**Vault Access Sign-up Flow** – Ready to connect with potential clients"
+- "**FAQ Section** – Answers to everything that matters"
 
-```bash
-pnpm dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## "🔒 RDX_WORX Services Include"
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+![Vault Services](./public/static/images/services.png)
 
-## Configuration
+- "Secure Vault Storage (climate-controlled & discreet)"
+- "Premium Detailing & Paint Correction"
+- "Paint Protection Film (PPF)"
+- "Ceramic Coating"
+- "Custom Vehicle Wrapping (chrome delete, stealth, color change)"
+- "Vehicle Photography"
+- "Pickup & Delivery (enclosed transport)"
+- "Value Growth & Collection Consulting"
 
-Configuration files to edit basic site information, add testimonials, faq and pricing table can be found in `/data`.
+---
 
-## Learn More
+## "🔧 Getting Started"
 
-Find out more about Saas UI.
+"Clone the repo and install dependencies:"
 
-- [Saas UI Documentation](https://saas-ui.dev/docs).
 
-To learn more about Next.js, take a look at the following resources:
+"Then open http://localhost:3000 in your browser."
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## "🧭 Configuration"
 
-## Deploy on Vercel
+"All content is easily editable via the /data directory:"
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `"faq.ts"` – "For the FAQ section"
+- `"pricing.ts"` – "Your service packages"
+- `"testimonials.ts"` – "Client feedback"
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+"Component-level edits can be made in /components."
 
-## License
+"Run the development server: pnpm dev"
 
-MIT
-# RDX_WORX
-# rdx_worx_
+
+---
+
+## "🧠 Learn More"
+
+- ["Saas UI Documentation"](https://saas-ui.dev/docs)
+- ["Next.js Documentation"](https://nextjs.org/docs)
+- ["Chakra UI Documentation"](https://chakra-ui.com/docs)
+
+---
+
+## "🚀 Deploy on Vercel"
+
+"The fastest way to go live: [Vercel](https://vercel.com/)"
+
+"Just connect your repo, and you're set."
+
+---
+
+## "📸 Previews"
+
+**"Hero Desktop View"**  
+![Desktop Hero](./public/static/images/desktop.png)
+
+**"Mobile Vault Preview"**  
+![Mobile Screenshot](./public/static/images/mobile_light.png)
+
+---
+
+> "Vaulted. Wrapped. Untouchable. – RDX_WORX"
+"""
